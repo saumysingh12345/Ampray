@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Ampray",
+    "slug": "ampray",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/ampicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/amp.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#009387"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "READ_CALENDAR",
+        "WRITE_CALENDAR"
+      ],
+      "versionCode": 9,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ampicon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.saumy0660.ampray"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fb157601-fe22-49c5-9ee5-8bad58b56755"
+      }
+    }
+  }
+}
